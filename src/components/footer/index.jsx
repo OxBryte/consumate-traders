@@ -74,7 +74,7 @@ export default function Footer() {
                         <Text color='brand.1000' fontSize='14px' fontWeight={400}>All information provided on this site is intended solely for the study purposes related to trading on financial markets and does not serve in any way as a specific investment recommendation, business recommendation, investment opportunity analysis or similar general recommendation regarding the trading of investment instruments. Trading in financial markets is a high-risk activity and it is advised not to risk more than one can afford to lose! <br /> <br /> Consummate Traders is managed by Kwakol Markets Pty Limited</Text>
                     </VStack>
                 </ContainLayout>
-                <Flex justify='center' w='full' p='10px' bg='brand.500' fontSize='16px' fontWeight={600} color="whiteAlpha.600">Created by the best minds of Consummate Traders © 2023.</Flex>
+                <Flex justify='center' w='full' p='10px' bg='brand.500' fontSize='16px' fontWeight={600} color="whiteAlpha.600" textAlign='center'>Created by the best minds of Consummate Traders © 2023.</Flex>
             </Box>
         </>
     )
