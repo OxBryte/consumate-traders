@@ -13,17 +13,15 @@ import Footer from './components/footer';
 function App() {
   return (
     <PageLayout navbar={true} footer={true}>
-      <ContainLayout>
-        <Box>
-          {/* <Heading fontSize={56}>
+      <Box>
+        {/* <Heading fontSize={56}>
             Hey mate! good to be here
           </Heading> */}
-          <Herosection />
-          <Productsection />
-          <Testimonial />
-          <Lastcta />
-        </Box>
-      </ContainLayout>
+        <Herosection />
+        <Productsection />
+        <Testimonial />
+        <Lastcta />
+      </Box>
     </PageLayout>
   );
 }
