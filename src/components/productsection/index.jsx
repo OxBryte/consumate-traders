@@ -12,7 +12,7 @@ function Productsection() {
                         <Text color='brand.200' fontWeight={400} fontSize={['16px', '20px']} maxW='650px'>We offers 8 synthetic options in 4 groups for clients who want to trade anytime, anywhere. You can choose from a variety of pairs that suit your trading style and preferences.</Text>
                     </VStack>
                     <SimpleGrid columns={[1, 1, 1, 2]} gap='24px' w='full'>
-                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900'>
+                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900' _hover={{boxShadow: 'md'}}>
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
