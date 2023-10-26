@@ -7,6 +7,7 @@ import Herosection from './components/herosection';
 import Productsection from './components/productsection';
 import Testimonial from './components/testimonials';
 import Lastcta from './components/lastcta';
+import Faq from './components/faq';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Herosection />
         <Productsection />
         <Testimonial />
+        <Faq />
         <Lastcta />
       </Box>
     </PageLayout>
