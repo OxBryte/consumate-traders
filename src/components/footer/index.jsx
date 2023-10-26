@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-function Footer() {
-    return (
-        <div>
-        Footer
-        </div>
-    );
-  }
-  
-  export default Footer;
-  
-=======
 import { Box, Text, Flex, VStack, Stack, Image, OrderedList, InputGroup, Input, InputRightElement, Button } from '@chakra-ui/react'
 import React from 'react'
 import ContainLayout from '../page-layout/container'
@@ -89,4 +77,3 @@ export default function Footer() {
         </>
     )
 }
->>>>>>> f68f9214c2ee4f404998247b7e7e143b89386e1a
