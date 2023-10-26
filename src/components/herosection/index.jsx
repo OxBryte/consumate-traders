@@ -1,6 +1,6 @@
 function Herosection() {
     return (
-        <div>
+        <div className="text-[43px]">
         Herosection
         </div>
     );

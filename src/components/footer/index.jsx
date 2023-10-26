@@ -12,9 +12,9 @@ export default function Footer() {
                             <Box>
                                 <Image src='consumate_logo_big.svg' alt='Consumate Traders Logo' />
                             </Box>
-                            <Stack w='full' justify='space-between' direction={['column', 'row']}>
+                            <Stack w='full' gap='40px' direction={{ base: 'column', md: 'column', lg: 'column', xl: 'row' }}>
                                 <VStack align='left' gap='32px'>
-                                    <VStack align='left' maxW='390px' gap='10px'>
+                                    <VStack align='left' maxW={{ base: 'full', md: 'full', lg: '83%', xl: '390px' }} gap='10px'>
                                         <Text fontSize={20} fontWeight={600}>Subscribe now for the latest Consummate Traders Updates straight to your inbox.</Text>
                                         <Text fontSize={16} fontWeight={400}>We promise not to spam you and to send you only valuable content</Text>
                                     </VStack>
@@ -27,40 +27,42 @@ export default function Footer() {
                                         </InputRightElement>
                                     </InputGroup>
                                 </VStack>
-                                <VStack align='left' gap='20px'>
-                                    <Text fontSize={20} fontWeight={600} >Quick links</Text>
-                                    <OrderedList listStyleType='none' align='left' m='0' spacing='14px' color='brand.200'>
-                                        <Text fontWeight={400} fontSize='14px'>Trading Models</Text>
-                                        <Text fontWeight={400} fontSize='14px'>Affiliates</Text>
-                                        <Text fontWeight={400} fontSize='14px'>Rules</Text>
-                                        <Text fontWeight={400} fontSize='14px'>FAQs</Text>
-                                        <Text fontWeight={400} fontSize='14px'>Help Center</Text>
-                                        <Text fontWeight={400} fontSize='14px'>Status Page</Text>
-                                    </OrderedList>
-                                </VStack>
-                                <VStack align='left' gap='20px'>
-                                    <Text fontSize={20} fontWeight={600} >Resources</Text>
-                                    <OrderedList listStyleType='none' align='left' m='0' spacing='14px' color='brand.200'>
-                                        <Text fontWeight={400} fontSize='14px'>Webinars</Text>
-                                        <Text fontWeight={400} fontSize='14px'>Blog</Text>
-                                    </OrderedList>
-                                </VStack>
-                                <VStack align='left' gap='20px'>
-                                    <Text fontSize={20} fontWeight={600} >Quick links</Text>
-                                    <OrderedList listStyleType='none' align='left' m='0' spacing='14px' color='brand.200'>
-                                        <Text fontWeight={400} fontSize='14px'>About Us</Text>
-                                        <Text fontWeight={400} fontSize='14px'>Terms of Service</Text>
-                                    </OrderedList>
-                                </VStack>
-                                <VStack align='left' gap='20px'>
-                                    <Text fontSize={20} fontWeight={600} >Get in touch</Text>
-                                    <OrderedList listStyleType='none' align='left' m='0' spacing='14px' color='brand.200'>
-                                        <Text fontWeight={400} fontSize='14px'>support@consummatetraders.com</Text>
-                                        <Text fontWeight={400} fontSize='14px'>+1 (866) 835-2310</Text>
-                                    </OrderedList>
-                                </VStack>
+                                <Stack gap='36px' direction={{ base: 'column', md: 'row', lg: 'row', xl: 'row' }}>
+                                    <VStack align='left' gap='20px'>
+                                        <Text fontSize={20} fontWeight={600} >Quick links</Text>
+                                        <OrderedList listStyleType='none' align='left' m='0' spacing='14px' color='brand.200'>
+                                            <Text fontWeight={400} fontSize='14px'>Trading Models</Text>
+                                            <Text fontWeight={400} fontSize='14px'>Affiliates</Text>
+                                            <Text fontWeight={400} fontSize='14px'>Rules</Text>
+                                            <Text fontWeight={400} fontSize='14px'>FAQs</Text>
+                                            <Text fontWeight={400} fontSize='14px'>Help Center</Text>
+                                            <Text fontWeight={400} fontSize='14px'>Status Page</Text>
+                                        </OrderedList>
+                                    </VStack>
+                                    <VStack align='left' gap='20px'>
+                                        <Text fontSize={20} fontWeight={600} >Resources</Text>
+                                        <OrderedList listStyleType='none' align='left' m='0' spacing='14px' color='brand.200'>
+                                            <Text fontWeight={400} fontSize='14px'>Webinars</Text>
+                                            <Text fontWeight={400} fontSize='14px'>Blog</Text>
+                                        </OrderedList>
+                                    </VStack>
+                                    <VStack align='left' gap='20px'>
+                                        <Text fontSize={20} fontWeight={600} >Quick links</Text>
+                                        <OrderedList listStyleType='none' align='left' m='0' spacing='14px' color='brand.200'>
+                                            <Text fontWeight={400} fontSize='14px'>About Us</Text>
+                                            <Text fontWeight={400} fontSize='14px'>Terms of Service</Text>
+                                        </OrderedList>
+                                    </VStack>
+                                    <VStack align='left' gap='20px'>
+                                        <Text fontSize={20} fontWeight={600} >Get in touch</Text>
+                                        <OrderedList listStyleType='none' align='left' m='0' spacing='14px' color='brand.200'>
+                                            <Text fontWeight={400} fontSize='14px'>support@consummatetraders.com</Text>
+                                            <Text fontWeight={400} fontSize='14px'>+1 (866) 835-2310</Text>
+                                        </OrderedList>
+                                    </VStack>
+                                </Stack>
                             </Stack>
-                            <Flex w='full' justifyContent='right' gap='16px' mt='-65px'>
+                            <Flex w='full' justifyContent={['left', 'right']} gap='16px' mt={['0px', '-55px']}>
                                 <Image src='facebook.svg' alt='' />
                                 <Image src='linkedin.svg' alt='' />
                                 <Image src='instagram.svg' alt='' />

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Box, Heading } from '@chakra-ui/react';
 import PageLayout from './components/page-layout';
@@ -19,11 +18,10 @@ function App() {
           {/* <Heading fontSize={56}>
             Hey mate! good to be here
           </Heading> */}
-      <Herosection/>
-      <Productsection />
-      <Testimonial />
-      <Lastcta />
-      <Footer />
+          <Herosection />
+          <Productsection />
+          <Testimonial />
+          <Lastcta />
         </Box>
       </ContainLayout>
     </PageLayout>
