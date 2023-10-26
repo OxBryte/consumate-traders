@@ -1,14 +1,12 @@
 import './App.css';
-import { Box, Heading } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import PageLayout from './components/page-layout';
-import ContainLayout from './components/page-layout/container';
 import '../src/styles/global.css'
 
 import Herosection from './components/herosection';
 import Productsection from './components/productsection';
 import Testimonial from './components/testimonials';
 import Lastcta from './components/lastcta';
-import Footer from './components/footer';
 
 function App() {
   return (
