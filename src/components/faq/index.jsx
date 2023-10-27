@@ -6,7 +6,7 @@ function Faq() {
     return (
         <>
             <ContainLayout>
-                <VStack gap='64px' w='full' align='left' my='160px'>
+                <VStack gap='64px' w='full' align='left' my={['80px', '160px']}>
                     <Heading color='brand.200' fontSize='40px' fontWeight={700}>Got Questions? <br /> <Box as='a' color='brand.100'>We've Got Answers.</Box></Heading>
                     <Box bg='brand.600' p={['32px', '56px']} rounded='16px'>
                         <Accordion allowToggle>
@@ -20,7 +20,7 @@ function Faq() {
                                             <AccordionIcon />
                                         </AccordionButton>
                                     </AccordionButton>
-                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' >
+                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' fontColor='brand.200' >
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -36,7 +36,7 @@ function Faq() {
                                             <AccordionIcon />
                                         </AccordionButton>
                                     </AccordionButton>
-                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' >
+                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' fontColor='brand.200' >
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -52,7 +52,7 @@ function Faq() {
                                             <AccordionIcon />
                                         </AccordionButton>
                                     </AccordionButton>
-                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' >
+                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' fontColor='brand.200' >
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -68,7 +68,7 @@ function Faq() {
                                             <AccordionIcon />
                                         </AccordionButton>
                                     </AccordionButton>
-                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' >
+                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' fontColor='brand.200' >
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -84,7 +84,7 @@ function Faq() {
                                             <AccordionIcon />
                                         </AccordionButton>
                                     </AccordionButton>
-                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' >
+                                    <AccordionPanel fontWeight={400} fontSize='16px' px='0' py='16px' fontColor='brand.200' >
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

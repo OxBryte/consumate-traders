@@ -6,13 +6,13 @@ function Productsection() {
     return (
         <>
             <ContainLayout>
-                <VStack gap='64px' w='full' align='left' my='160px'>
+                <VStack gap='64px' w='full' align='left' my={['80px', '160px']}>
                     <VStack align='left' w='full' gap='24px'>
                         <Heading color='brand.100' fontSize={['32px', '40px']} fontWeight={700}>Available Synthetics</Heading>
                         <Text color='brand.200' fontWeight={400} fontSize={['16px', '20px']} maxW='650px'>We offers 8 synthetic options in 4 groups for clients who want to trade anytime, anywhere. You can choose from a variety of pairs that suit your trading style and preferences.</Text>
                     </VStack>
                     <SimpleGrid columns={[1, 1, 1, 2]} gap='24px' w='full'>
-                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900' _hover={{boxShadow: 'md'}}>
+                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900' _hover={{ boxShadow: 'md' }}>
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
