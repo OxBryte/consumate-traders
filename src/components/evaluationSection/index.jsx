@@ -6,6 +6,7 @@ import { FaArrowRight, FaCheck } from 'react-icons/fa'
 export default function EvaluationSection() {
 
     const [hover, setHover] = useState(false)
+    const [hoverO, setHoverO] = useState(false)
 
     return (
         <>
@@ -27,12 +28,12 @@ export default function EvaluationSection() {
                                 <Text color='brand.200' fontWeight={400} fontSize='20px'>Phase I is the first step of the Evaluation Process. You need to succeed here to advance into the Confirmation stage. Demonstrate your trading skills and discipline in observing the Trading goals.</Text>
                             </VStack>
                             {hover && (
-                                <Box position='absolute' bottom='-10%' left='-45%' w='400px'>
+                                <Box position='absolute' bottom='-10%' left='-45%' w='400px' opacity={hover ? 1 : 0} transition='opacity 0.3s ease-in-out'>
                                     <Image src='hover-grad.svg' alt='' />
                                 </Box>
                             )}
                         </Box>
-                        <Box onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} rounded='16px' p='30px' border='1px' borderColor='brand.900' position='relative' overflow='hidden'>
+                        <Box onMouseEnter={() => setHoverO(true)} onMouseLeave={() => setHoverO(false)} rounded='16px' p='30px' border='1px' borderColor='brand.900' position='relative' overflow='hidden'>
                             <VStack w='full' gap='14px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Text fontWeight={700} fontSize='24px'>Phase II</Text>
@@ -42,13 +43,13 @@ export default function EvaluationSection() {
                                 </Flex>
                                 <Text color='brand.200' fontWeight={400} fontSize='20px'>This is the last phase towards becoming a Consummate Trader. Once you go through the confirmation phase and your results are verified, you will get the chance to trade for our Firm.</Text>
                             </VStack>
-                            {hover && (
-                                <Box position='absolute' bottom='-10%' left='-45%' w='400px'>
+                            {hoverO && (
+                                <Box position='absolute' bottom='-10%' left='-45%' w='400px' opacity={hoverO ? 1 : 0} transition='opacity 0.3s ease-in-out' >
                                     <Image src='hover-grad.svg' alt='' />
                                 </Box>
                             )}
                         </Box>
-                        <Box rounded='16px' p='30px' border='1px' borderColor='brand.900' bgGradient='linear(to-r, brand.300, brand.400)' _hover={{bgGradient: 'linear(to-r, brand.400, brand.300)'}}>
+                        <Box rounded='16px' p='30px' border='1px' borderColor='brand.900' bgGradient='linear(to-r, brand.300, brand.400)' _hover={{ bgGradient: 'linear(to-r, brand.400, brand.300)' }}>
                             <VStack w='full' gap='14px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Text color='white' fontWeight={700} fontSize='24px'>Consummate Trader</Text>
