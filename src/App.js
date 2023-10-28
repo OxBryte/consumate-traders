@@ -11,7 +11,7 @@ import Faq from './components/faq';
 
 function App() {
   return (
-    <PageLayout navbar={true} footer={true}>
+    <PageLayout navbar={false} footer={true}>
       <Box>
         {/* <Heading fontSize={56}>
             Hey mate! good to be here
