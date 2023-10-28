@@ -8,6 +8,7 @@ import Productsection from './components/productsection';
 import Testimonial from './components/testimonials';
 import Lastcta from './components/lastcta';
 import Faq from './components/faq';
+import EvaluationSection from './components/evaluationSection';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             Hey mate! good to be here
           </Heading> */}
         <Herosection />
+        <EvaluationSection />
         <Productsection />
         <Testimonial />
         <Faq />

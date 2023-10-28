@@ -16,7 +16,7 @@ function Productsection() {
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
-                                        <Image src='indices.svg' alt='' />
+                                        <Image src='/indices.svg' alt='' />
                                         <Text fontWeight={700} fontSize='24px'>Power Indices</Text>
                                     </Flex>
                                     <Box display={["none", "none", "none", "block"]} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>Available on MT5</Box>
@@ -39,7 +39,7 @@ function Productsection() {
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
-                                        <Image src='indices.svg' alt='' />
+                                        <Image src='/indices.svg' alt='' />
                                         <Text fontWeight={700} fontSize='24px'>Power Indices</Text>
                                     </Flex>
                                     <Box display={["none", "none", "none", "block"]} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>Available on MT5</Box>
@@ -62,7 +62,7 @@ function Productsection() {
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
-                                        <Image src='indices.svg' alt='' />
+                                        <Image src='/indices.svg' alt='' />
                                         <Text fontWeight={700} fontSize='24px'>Power Indices</Text>
                                     </Flex>
                                     <Box display={["none", "none", "none", "block"]} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>Available on MT5</Box>
@@ -85,7 +85,7 @@ function Productsection() {
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
-                                        <Image src='indices.svg' alt='' />
+                                        <Image src='/indices.svg' alt='' />
                                         <Text fontWeight={700} fontSize='24px'>Power Indices</Text>
                                     </Flex>
                                     <Box display={["none", "none", "none", "block"]} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>Available on MT5</Box>
