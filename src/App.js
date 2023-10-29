@@ -9,6 +9,7 @@ import Testimonial from './components/testimonials';
 import Lastcta from './components/lastcta';
 import Faq from './components/faq';
 import EvaluationSection from './components/evaluationSection';
+import PackageSection from './components/packageSection';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           </Heading> */}
         <Herosection />
         <EvaluationSection />
+        <PackageSection />
         <Productsection />
         <Testimonial />
         <Faq />
