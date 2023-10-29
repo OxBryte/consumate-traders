@@ -17,29 +17,41 @@ export default function PackageSection() {
                                 <Thead>
                                     <Tr>
                                         <Th></Th>
-                                        <Th>into</Th>
-                                        <Th>into</Th>
-                                        <Th isNumeric>multiply by</Th>
+                                        <Th>PACKAGE I</Th>
+                                        <Th>PACKAGE II</Th>
+                                        <Th>PACKAGE III</Th>
                                     </Tr>
                                 </Thead>
                                 <Tbody>
                                     <Tr>
-                                        <Td>inches</Td>
-                                        <Td>millimetres (mm)</Td>
-                                        <Td>millimetres (mm)</Td>
-                                        <Td isNumeric>25.4</Td>
+                                        <Td>FUNDING AMOUNT</Td>
+                                        <Td></Td>
+                                        <Td></Td>
+                                        <Td></Td>
                                     </Tr>
                                     <Tr>
-                                        <Td>feet</Td>
-                                        <Td>centimetres (cm)</Td>
-                                        <Td>centimetres (cm)</Td>
-                                        <Td isNumeric>30.48</Td>
+                                        <Td>MAXIMUM DAILY LOSS</Td>
+                                        <Td></Td>
+                                        <Td></Td>
+                                        <Td></Td>
                                     </Tr>
                                     <Tr>
-                                        <Td>yards</Td>
-                                        <Td>metres (m)</Td>
-                                        <Td>metres (m)</Td>
-                                        <Td isNumeric>0.91444</Td>
+                                        <Td>MAX LOSS</Td>
+                                        <Td></Td>
+                                        <Td></Td>
+                                        <Td></Td>
+                                    </Tr>
+                                    <Tr>
+                                        <Td>LEVERAGE</Td>
+                                        <Td></Td>
+                                        <Td></Td>
+                                        <Td></Td>
+                                    </Tr>
+                                    <Tr>
+                                        <Td>PROFIT TARGET</Td>
+                                        <Td></Td>
+                                        <Td></Td>
+                                        <Td></Td>
                                     </Tr>
                                 </Tbody>
                             </Table>

@@ -35,7 +35,7 @@ function Productsection() {
                                 </Flex>
                             </VStack>
                         </Box>
-                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900'>
+                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900' _hover={{ boxShadow: 'md' }}>
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
@@ -58,7 +58,7 @@ function Productsection() {
                                 </Flex>
                             </VStack>
                         </Box>
-                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900'>
+                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900' _hover={{ boxShadow: 'md' }}>
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
@@ -81,7 +81,7 @@ function Productsection() {
                                 </Flex>
                             </VStack>
                         </Box>
-                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900'>
+                        <Box rounded='16px' p='24px' border='1px' borderColor='brand.900' _hover={{ boxShadow: 'md' }}>
                             <VStack w='full' gap='24px' align='left'>
                                 <Flex align='center' justify='space-between' w='full'>
                                     <Flex gap='10px' align='center'>
