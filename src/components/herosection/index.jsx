@@ -1,4 +1,4 @@
-import { Avatar, AvatarGroup, Box, Flex, Heading, Image, SimpleGrid, Stack, Text, VStack, } from "@chakra-ui/react";
+import { Avatar, AvatarGroup, Box, Flex, Heading, Image, SimpleGrid, Text, VStack, } from "@chakra-ui/react";
 import Navbar from "../navbar";
 import ContainLayout from "../page-layout/container";
 
@@ -11,7 +11,7 @@ function Herosection() {
                     <VStack mt='80px' w='full' justify='center' align='center' position='relative'>
                         <VStack w='full' align='left' gap='56px'>
                             <VStack w='full' align='left' gap='24px'>
-                                <Heading fontWeight={700} fontSize={['32px', '48px']} color='whiteAlpha.600'>Trade Beyond Boundaries. <br /> With <Box as='span' color='white'>SYNTHETICS</Box> </Heading>
+                                <Heading fontWeight={700} fontSize={['32px', '48px']} color='whiteAlpha.600'>Trade Beyond Boundaries <br /> With <Box as='span' color='white'>SYNTHETICS</Box> </Heading>
                                 <Text maxW='600px' fontWeight={400} fontSize={['16px', '24px']} color='whiteAlpha.600'>Lorem ipsum dolor sit amet consectetur. Nisi nisi tristique suscipit amet tincidunt vitae nulla purus. Vitae pellentesque quis volutpat nisl maecenas convallis ullamcorper. </Text>
                             </VStack>
                             <Flex flexDirection={['column-reverse', 'row']} gap='24px' align={['left', 'center']}>

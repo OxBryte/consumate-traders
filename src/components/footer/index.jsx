@@ -18,10 +18,10 @@ export default function Footer() {
                                         <Text fontSize={20} fontWeight={600}>Subscribe now for the latest Consummate Traders Updates straight to your inbox.</Text>
                                         <Text fontSize={16} fontWeight={400}>We promise not to spam you and to send you only valuable content</Text>
                                     </VStack>
-                                    <InputGroup size='md' w='340px'>
-                                        <Input type='email' placeholder='Enter email' />
+                                    <InputGroup position='relative' size='lg' minW='280px'>
+                                        <Input type='email' placeholder='Enter email' pr='30%' />
                                         <InputRightElement w='124px'>
-                                            <Button bg='#0A1818' color='white' h='30px' size='md'>
+                                            <Button bg='#0A1818' color='white' h='36px' size='md'>
                                                 Subscribe
                                             </Button>
                                         </InputRightElement>
