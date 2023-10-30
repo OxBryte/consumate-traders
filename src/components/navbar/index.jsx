@@ -7,6 +7,7 @@ export default function Navbar() {
   const isDesktop = useBreakpointValue({ base: false, lg: true })
   const { isOpen, onOpen, onClose } = useDisclosure()
 
+
   return (
     <>
       <Box as='nav' rounded='20px' bg='#F1FEF8' w='full' p='16px'>
@@ -37,7 +38,7 @@ export default function Navbar() {
               <Button bg='brand.300' color='white'>Client Area</Button>
             </HStack>
           ) : (
-            <Box onclick={onOpen}>
+            <Box onClick={() => onOpen()}>
               <BiMenu size={35} />
             </Box>
           )}
@@ -47,8 +48,8 @@ export default function Navbar() {
           <DrawerOverlay />
           <DrawerContent>
             <DrawerCloseButton />
-            <DrawerBody bg="brand.100">
-              <VStack align='center' gap='16px' textDecoration='none'>
+            <DrawerBody bg="brand.400" color='white'>
+              <VStack mt='40px' align='left' gap='16px' textDecoration='none'>
                 <Link to='/'>
                   <Text textDecoration='none'>Trading Models</Text>
                 </Link>
@@ -67,7 +68,7 @@ export default function Navbar() {
                 <Link to='/'>
                   <Text>Resources</Text>
                 </Link>
-                <Button bg='brand.300' color='white'>Client Area</Button>
+                <Button bg='brand.300' w='fit-content' color='white'>Client Area</Button>
               </VStack>
             </DrawerBody>
           </DrawerContent>
