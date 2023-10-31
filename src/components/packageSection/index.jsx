@@ -1,6 +1,7 @@
 import React from 'react'
 import ContainLayout from '../page-layout/container'
-import { Heading, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr, VStack } from '@chakra-ui/react'
+import { Heading, Mark, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr, VStack } from '@chakra-ui/react'
+import { FaCheck } from 'react-icons/fa'
 
 export default function PackageSection() {
     return (
@@ -25,33 +26,54 @@ export default function PackageSection() {
                                 <Tbody>
                                     <Tr>
                                         <Td>FUNDING AMOUNT</Td>
-                                        <Td></Td>
-                                        <Td></Td>
-                                        <Td></Td>
-                                    </Tr>
-                                    <Tr>
-                                        <Td>MAXIMUM DAILY LOSS</Td>
-                                        <Td></Td>
-                                        <Td></Td>
-                                        <Td></Td>
-                                    </Tr>
-                                    <Tr>
-                                        <Td>MAX LOSS</Td>
-                                        <Td></Td>
-                                        <Td></Td>
-                                        <Td></Td>
+                                        <Td>$5,000</Td>
+                                        <Td>$10,000</Td>
+                                        <Td>$20,000</Td>
                                     </Tr>
                                     <Tr>
                                         <Td>LEVERAGE</Td>
-                                        <Td></Td>
-                                        <Td></Td>
-                                        <Td></Td>
+                                        <Td><FaCheck/></Td>
+                                        <Td>1:100</Td>
+                                        <Td><FaCheck/></Td>
+                                    </Tr>
+                                    <Tr>
+                                        <Td>MAXIMUM DAILY LOSS</Td>
+                                        <Td><FaCheck/></Td>
+                                        <Td>5%</Td>
+                                        <Td><FaCheck/></Td>
+                                    </Tr>
+                                    <Tr>
+                                        <Td>MAX LOSS</Td>
+                                        <Td><FaCheck/></Td>
+                                        <Td>10%</Td>
+                                        <Td><FaCheck/></Td>
                                     </Tr>
                                     <Tr>
                                         <Td>PROFIT TARGET</Td>
-                                        <Td></Td>
-                                        <Td></Td>
-                                        <Td></Td>
+                                        <Td><FaCheck/></Td>
+                                        <Td>
+                                            Phase I = 10% (30-Days) <br/> 
+                                            Phase II = 10% (30-Days)
+                                        </Td>
+                                        <Td><FaCheck/></Td>
+                                    </Tr>
+                                    <Tr>
+                                        <Td>MIN TRADING DAYS</Td>
+                                        <Td><FaCheck/></Td>
+                                        <Td>7 Days</Td>
+                                        <Td><FaCheck/></Td>
+                                    </Tr>
+                                    <Tr>
+                                        <Td>PROFIT SPLIT</Td>
+                                        <Td><FaCheck/></Td>
+                                        <Td>70%</Td>
+                                        <Td><FaCheck/></Td>
+                                    </Tr>
+                                    <Tr>
+                                        <Td>PURCHASE FEE</Td>
+                                        <Td>$99</Td>
+                                        <Td>$189</Td>
+                                        <Td>$249</Td>
                                     </Tr>
                                 </Tbody>
                             </Table>
