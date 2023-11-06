@@ -1,6 +1,6 @@
 import React from 'react'
 import ContainLayout from '../page-layout/container'
-import { Heading, Mark, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr, VStack } from '@chakra-ui/react'
+import { Heading, Image, Flex, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr, VStack } from '@chakra-ui/react'
 import { FaCheck } from 'react-icons/fa'
 
 export default function PackageSection() {
@@ -18,9 +18,24 @@ export default function PackageSection() {
                                 <Thead>
                                     <Tr>
                                         <Th></Th>
-                                        <Th><Image src='/indices.svg' alt='' /> PACKAGE I</Th>
-                                        <Th><Image src='/indices.svg' alt='' /> PACKAGE II</Th>
-                                        <Th><Image src='/indices.svg' alt='' /> PACKAGE III</Th>
+                                        <Th>
+                                            <Flex align='center' gap='8px'>
+                                                <Image src='/indices.svg' alt='' />
+                                                <Text>PACKAGE I</Text>
+                                            </Flex>
+                                        </Th>
+                                        <Th>
+                                            <Flex align='center' gap='8px'>
+                                                <Image src='/indices.svg' alt='' />
+                                                <Text>PACKAGE II</Text>
+                                            </Flex>
+                                        </Th>
+                                        <Th>
+                                            <Flex align='center' gap='8px'>
+                                                <Image src='/indices.svg' alt='' />
+                                                <Text>PACKAGE III</Text>
+                                            </Flex>
+                                        </Th>
                                     </Tr>
                                 </Thead>
                                 <Tbody>
@@ -32,42 +47,42 @@ export default function PackageSection() {
                                     </Tr>
                                     <Tr>
                                         <Td>LEVERAGE</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                         <Td>1:100</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                     </Tr>
                                     <Tr>
                                         <Td>MAXIMUM DAILY LOSS</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                         <Td>5%</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                     </Tr>
                                     <Tr>
                                         <Td>MAX LOSS</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                         <Td>10%</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                     </Tr>
                                     <Tr>
                                         <Td>PROFIT TARGET</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                         <Td>
-                                            Phase I = 10% (30-Days) <br/> 
+                                            Phase I = 10% (30-Days) <br />
                                             Phase II = 10% (30-Days)
                                         </Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                     </Tr>
                                     <Tr>
                                         <Td>MIN TRADING DAYS</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                         <Td>7 Days</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                     </Tr>
                                     <Tr>
                                         <Td>PROFIT SPLIT</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                         <Td>70%</Td>
-                                        <Td><FaCheck/></Td>
+                                        <Td><FaCheck /></Td>
                                     </Tr>
                                     <Tr>
                                         <Td>PURCHASE FEE</Td>
