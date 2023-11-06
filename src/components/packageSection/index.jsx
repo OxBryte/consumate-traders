@@ -18,9 +18,9 @@ export default function PackageSection() {
                                 <Thead>
                                     <Tr>
                                         <Th></Th>
-                                        <Th>PACKAGE I</Th>
-                                        <Th>PACKAGE II</Th>
-                                        <Th>PACKAGE III</Th>
+                                        <Th><Image src='/indices.svg' alt='' /> PACKAGE I</Th>
+                                        <Th><Image src='/indices.svg' alt='' /> PACKAGE II</Th>
+                                        <Th><Image src='/indices.svg' alt='' /> PACKAGE III</Th>
                                     </Tr>
                                 </Thead>
                                 <Tbody>
