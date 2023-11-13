@@ -10,7 +10,7 @@ export default function PackageSection() {
                 <VStack gap='64px' w='full' align='left' my={['80px', '160px']}>
                     <VStack align='left' w='full' gap='24px'>
                         <Heading color='brand.100' fontSize={['32px', '40px']} fontWeight={700}>Synthetics Package Tiers</Heading>
-                        <Text color='brand.200' fontWeight={400} fontSize={['16px', '20px']} maxW='590px'>We offer a range of packages tailored to accommodate a diverse range of individuals, spanning from those with lower incomes to high earners.</Text>
+                        <Text color='brand.200' fontWeight={400} fontSize={['16px', '20px']} maxW='590px'>We provide a variety of packages designed to cater to a diverse range of individuals, including those with modest incomes and high-earning individuals.</Text>
                     </VStack>
                     <VStack w='full' border='1px' borderColor='brand.900' rounded='16px' p='8px'>
                         <TableContainer w='full'>

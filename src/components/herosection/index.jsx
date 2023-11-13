@@ -12,7 +12,7 @@ function Herosection() {
                         <VStack w='full' align='left' gap='56px'>
                             <VStack w='full' align='left' gap='24px'>
                                 <Heading fontWeight={700} fontSize={['32px', '48px']} color='whiteAlpha.600'>Trade Beyond Boundaries <br /> With <Box as='span' color='white'>SYNTHETICS</Box> </Heading>
-                                <Text maxW='600px' fontWeight={400} fontSize={['16px', '24px']} color='whiteAlpha.600'>Lorem ipsum dolor sit amet consectetur. Nisi nisi tristique suscipit amet tincidunt vitae nulla purus. Vitae pellentesque quis volutpat nisl maecenas convallis ullamcorper. </Text>
+                                <Text maxW='600px' fontWeight={400} fontSize={['16px', '24px']} color='whiteAlpha.600'>You are now a trader of the Consummate Traders Proprietary Trading firm. Trade devotedly and consistently and receive up to 90% of your profits. Lastly, for synthetic accounts, the profit split does not go beyond 70%, 90% is written here.</Text>
                             </VStack>
                             <Flex flexDirection={['column-reverse', 'row']} gap='24px' align={['left', 'center']}>
                                 <Box as='a' border='1px' borderColor='brand.50' py='20px' px='40px' w='fit-content' bg='white' rounded='20px' fontSize='24px' fontWeight={700} >Get started</Box>
@@ -40,22 +40,22 @@ function Herosection() {
                                 <Image src='/logo-with-border.svg' alt='' />
                                 <Text fontWeight={700} fontSize={['22px', '24px']} color='brand.100'>24/7 Trading</Text>
                             </Flex>
-                            <Text fontWeight={400} fontSize={['16px', '20px']} color='brand.200'>Seamless 24/7 trading access, encompassing weekends and public holidays, for non-stop investment opportunities and flexibility.</Text>
+                            <Text fontWeight={400} fontSize={['16px', '20px']} color='brand.200'>Continuous access to trading, including weekends and public holidays, ensuring uninterrupted investment possibilities and adaptability.</Text>
                         </VStack>
                         <VStack align='left' gap='18px'>
                             <Flex align='center' gap='16px'>
                                 <Image src='/logo-with-border.svg' alt='' />
                                 <Text fontWeight={700} fontSize={['22px', '24px']} color='brand.100'>High Volatility</Text>
                             </Flex>
-                            <Text fontWeight={400} fontSize={['16px', '20px']} color='brand.200'>Due to its pronounced volatility, there's an increased likelihood of achieving greater profits and capital growth potential.</Text>
+                            <Text fontWeight={400} fontSize={['16px', '20px']} color='brand.200'>Owing to the elevated volatility, there's a heightened probability of attaining larger profits and potential for capital growth.</Text>
                         </VStack>
-                        <VStack align='left' gap='18px'>
+                        {/* <VStack align='left' gap='18px'>
                             <Flex align='center' gap='16px'>
                                 <Image src='/logo-with-border.svg' alt='' />
                                 <Text fontWeight={700} fontSize={['22px', '24px']} color='brand.100'>24/7 Trading</Text>
                             </Flex>
                             <Text fontWeight={400} fontSize={['16px', '20px']} color='brand.200'>Due to its pronounced volatility, there's an increased likelihood of achieving greater profits and capital growth potential.</Text>
-                        </VStack>
+                        </VStack> */}
                     </SimpleGrid>
                 </ContainLayout>
             </Box>

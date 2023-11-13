@@ -22,7 +22,7 @@ function Productsection() {
                                     <Box display={["none", "none", "none", "block"]} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>Available on MT5</Box>
                                     <Box display={['block', 'block', 'block', 'none']} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>MT5</Box>
                                 </Flex>
-                                <Text color='brand.200' fontWeight={400} fontSize='20px' maxW='650px'>These instruments correspond to simulated market conditions with one tick generated every second for 100 and 200.</Text>
+                                {/* <Text color='brand.200' fontWeight={400} fontSize='20px' maxW='650px'>These instruments correspond to simulated market conditions with one tick generated every second for 100 and 200.</Text> */}
                                 <Flex w='full' gap='16px'>
                                     <VStack w='full' p='16px' rounded='8px' gap='8px' align='left' bg='brand.600'>
                                         <Text fontWeight={700} fontSize='20px' color='brand.100'>Power Indices</Text>
@@ -45,7 +45,7 @@ function Productsection() {
                                     <Box display={["none", "none", "none", "block"]} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>Available on MT5</Box>
                                     <Box display={['block', 'block', 'block', 'none']} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>MT5</Box>
                                 </Flex>
-                                <Text color='brand.200' fontWeight={400} fontSize='20px' maxW='650px'>These instruments correspond to simulated market conditions with one tick generated every second for 100 and 200.</Text>
+                                {/* <Text color='brand.200' fontWeight={400} fontSize='20px' maxW='650px'>These instruments correspond to simulated market conditions with one tick generated every second for 100 and 200.</Text> */}
                                 <Flex w='full' gap='16px'>
                                     <VStack w='full' p='16px' rounded='8px' gap='8px' align='left' bg='brand.600'>
                                         <Text fontWeight={700} fontSize='20px' color='brand.100'>Power Indices</Text>
@@ -68,7 +68,7 @@ function Productsection() {
                                     <Box display={["none", "none", "none", "block"]} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>Available on MT5</Box>
                                     <Box display={['block', 'block', 'block', 'none']} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>MT5</Box>
                                 </Flex>
-                                <Text color='brand.200' fontWeight={400} fontSize='20px' maxW='650px'>These instruments correspond to simulated market conditions with one tick generated every second for 100 and 200.</Text>
+                                {/* <Text color='brand.200' fontWeight={400} fontSize='20px' maxW='650px'>These instruments correspond to simulated market conditions with one tick generated every second for 100 and 200.</Text> */}
                                 <Flex w='full' gap='16px'>
                                     <VStack w='full' p='16px' rounded='8px' gap='8px' align='left' bg='brand.600'>
                                         <Text fontWeight={700} fontSize='20px' color='brand.100'>Power Indices</Text>
@@ -91,7 +91,7 @@ function Productsection() {
                                     <Box display={["none", "none", "none", "block"]} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>Available on MT5</Box>
                                     <Box display={['block', 'block', 'block', 'none']} as='span' border='2px' rounded='full' px='16px' py='8px' fontSize='14px' fontWeight={700} color='brand.700' borderColor='brand.700' bg='brand.800'>MT5</Box>
                                 </Flex>
-                                <Text color='brand.200' fontWeight={400} fontSize='20px' maxW='650px'>These instruments correspond to simulated market conditions with one tick generated every second for 100 and 200.</Text>
+                                {/* <Text color='brand.200' fontWeight={400} fontSize='20px' maxW='650px'>These instruments correspond to simulated market conditions with one tick generated every second for 100 and 200.</Text> */}
                                 <Flex w='full' gap='16px'>
                                     <VStack w='full' p='16px' rounded='8px' gap='8px' align='left' bg='brand.600'>
                                         <Text fontWeight={700} fontSize='20px' color='brand.100'>Power Indices</Text>
