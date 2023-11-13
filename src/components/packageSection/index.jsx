@@ -68,7 +68,7 @@ export default function PackageSection() {
                                         <Td><FaCheck /></Td>
                                         <Td>
                                             Phase I = 10% (30-Days) <br />
-                                            Phase II = 10% (30-Days)
+                                            Phase II = 8% (30-Days)
                                         </Td>
                                         <Td><FaCheck /></Td>
                                     </Tr>

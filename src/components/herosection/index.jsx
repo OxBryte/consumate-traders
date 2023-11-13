@@ -34,7 +34,7 @@ function Herosection() {
                     <Box position='absolute' display={{ base: 'none', sm: 'none', md: 'none', lg: 'block' }} top='3%' left='60%' w='880px' borderWidth='5px' borderColor='whiteAlpha.300' rounded='16px' overflow='hidden'>
                         <Image src='/hero-img.png' alt='' />
                     </Box>
-                    <SimpleGrid columns={[1, 1, 1, 1, 3]} bg='brand.800' rounded='24px' borderWidth='1px' p='40px' mt='260px' borderColor='brand.400' gap='24px' w='full'>
+                    <SimpleGrid columns={[1, 1, 1, 1, 2]} bg='brand.800' rounded='24px' borderWidth='1px' p='40px' mt='260px' borderColor='brand.400' gap='24px' w='full'>
                         <VStack align='left' gap='18px'>
                             <Flex align='center' gap='16px'>
                                 <Image src='/logo-with-border.svg' alt='' />
